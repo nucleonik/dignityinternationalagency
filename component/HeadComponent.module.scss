@@ -1,10 +1,9 @@
 .nav {
     display: flex;
-    padding-left: 30px;
-    padding-right: 30px;
     justify-content: space-between;
     background-color: whitesmoke;
-    
+    padding-right: 5vw;
+    padding-left: 5vw;
 }
 .navl img {
     width: 50px;
@@ -12,7 +11,6 @@
 }
 .navl {
     display: flex;
-    
     padding-top: 11px;
     padding-bottom: 11px;
 }
@@ -23,11 +21,14 @@
 }
 .h3dig h3{
     color: red;
-    line-height: 15px;
-    font-weight: 680;
+    line-height: 16px;
+    font-weight: 780;
+    font-size: 20px;
 }
 .h3dig h4 {
     line-height: auto;
+    font-size: 20px;
+    font-weight: 580;
 }
 .navr {
     display: flex;
@@ -57,11 +58,7 @@
         font-size: 0px;
     }
 }
-@media (min-width: 750px) {
-    .nav {
-        padding-left: 50px;
-    }
-}   
+  
 @media (min-width: 850px) {
     .navr img {
         width: 0px;

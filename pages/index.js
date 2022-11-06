@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
+
 import FooterComponent from '../component/FooterComponent'
 import HeadComponent from '../component/HeadComponent'
 import IndexComponent from '../component/pages/IndexComponent'

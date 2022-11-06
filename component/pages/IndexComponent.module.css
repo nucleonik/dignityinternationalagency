@@ -1,3 +1,214 @@
-.title {
-  color: red;
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero h1 {
+  margin-top: 10vw;
+  background-color: rgba(186, 50, 50, 0.6);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  font-weight: 600;
+  font-size: 4.8vw;
+  border-radius: 4px;
+}
+
+.hero h2 {
+  margin-top: 1vw;
+  background-color: rgba(186, 50, 50, 0.6);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  font-weight: 600;
+  font-size: 3.8vw;
+  border-radius: 4px;
+}
+
+.hero h3 {
+  margin-top: 1vw;
+  background-color: rgba(186, 50, 50, 0.6);
+  padding-left: 2vw;
+  padding-right: 2vw;
+  color: white;
+  font-weight: 600;
+  font-size: 3.3vw;
+  border-radius: 4px;
+}
+
+.aboutusbutton {
+  margin-top: 1vw;
+  background-color: #ba3232;
+  padding-left: 1.5vw;
+  padding-right: 1.5vw;
+  color: white;
+  font-weight: 600;
+  font-size: 2.5vw;
+  border-radius: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+@media (min-width: 850px) {
+  .hero h1 {
+    margin-top: 13vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 4.2vw;
+    border-radius: 6px;
+  }
+  .hero h2 {
+    margin-top: 1vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 3.3vw;
+    border-radius: 6px;
+  }
+  .hero h3 {
+    margin-top: 1vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 3vw;
+    border-radius: 6px;
+  }
+  .aboutusbutton {
+    margin-top: 1vw;
+    background-color: #ba3232;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    color: white;
+    font-weight: 600;
+    font-size: 2.3vw;
+    border-radius: 6px;
+  }
+}
+@media (min-width: 1200px) {
+  .hero h1 {
+    margin-top: 15vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 4vw;
+    border-radius: 8px;
+  }
+  .hero h2 {
+    margin-top: 1vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 3vw;
+    border-radius: 8px;
+  }
+  .hero h3 {
+    margin-top: 1vw;
+    background-color: rgba(186, 50, 50, 0.6);
+    padding-left: 2vw;
+    padding-right: 2vw;
+    color: white;
+    font-weight: 600;
+    font-size: 2.5vw;
+    border-radius: 8px;
+  }
+  .aboutusbutton {
+    margin-top: 1vw;
+    background-color: #ba3232;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+    color: white;
+    font-weight: 600;
+    font-size: 2vw;
+    border-radius: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
+}
+.chairman {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 6vw;
+}
+
+.chairmanl img {
+  width: 50vw;
+}
+
+@media (min-width: 650px) {
+  .chairmanl img {
+    width: 365px;
+  }
+}
+.chairmanr {
+  margin-top: 5vw;
+}
+
+.chairmanmessage {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chairmanmessage h1 {
+  font-size: 6.5vw;
+  font-weight: 650;
+}
+
+.chairmanmessage p {
+  text-align: justify;
+  padding-left: 8vw;
+  padding-right: 8vw;
+  padding-top: 4vw;
+}
+
+.chairmanmessage img {
+  width: 100vw;
+}
+
+@media (min-width: 650px) {
+  .chairmanmessage h1 {
+    font-size: 42px;
+  }
+}
+@media (min-width: 1100px) {
+  .chairman {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3vw;
+    padding-left: 8vw;
+  }
+  .chairmanl {
+    flex: 1;
+  }
+  .chairmanr {
+    flex: 1;
+    margin-top: 10vw;
+  }
+  .chairmanmessage p {
+    text-align: justify;
+    padding-left: 0vw;
+    padding-right: 2vw;
+    padding-top: 2vw;
+  }
+  .chairmanmessage {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .chairmanmessage h1 {
+    text-align: left;
+  }
 }/*# sourceMappingURL=IndexComponent.module.css.map */
