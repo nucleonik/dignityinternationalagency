@@ -5,7 +5,7 @@ import styles from '../pages/IndexComponent.module.css'
 const IndexComponent = () => {
   return (
     <div>
-        <div className={styles.hero} style={{ backgroundImage: `url("bgimg1.png")`, backgroundPosition: 'center', height: '40vw',backgroundSize: '100%', backgroundRepeat: 'no-repeat' }}>
+        <div className={styles.hero} style={{ backgroundImage: `url("bgimg1.png")`, backgroundPosition: 'center', height: '40vw',backgroundSize: '100%',backgroundRepeat: 'no-repeat' }}>
             <div>
                   <h1>DIGNITY INTERNATIONAL AGENCY</h1>
             </div>
@@ -34,6 +34,38 @@ const IndexComponent = () => {
             </div>
           </div>
         </div>
+        <div className={styles.service}>
+          <div className={styles.servicetop}>
+                <h1>Our Services</h1>
+                <p>Our vision is to be a leader in  the placement of Bangladesh Manpower globally.</p>
+          </div>
+          <div className={styles.servicedown}>
+              <div className={styles.s1}>
+                  <img src='s1.png' alt='martfashion'/>
+                  <p>MART Fashion</p>
+              </div>
+              <div className={styles.s2}>
+                  <img src='s2.png' alt='HRCS'/>
+                  <p>Human Resource Consultant & Suppliers</p>
+              </div>
+              <div className={styles.s3}>
+                  <img src='s3.png' alt='ITsolutions'/>
+                  <p>Dignity IT Solutions</p>
+              </div>
+              <div className={styles.s4}>
+              <img src='s4.png' alt='Healthcare'/>
+              <p>Health Care Unit</p>
+            </div>
+            <div className={styles.s5}>
+                <img src='s5.png' alt='Neer'/>
+                <p>Neer - A Volunteering Organization</p>
+            </div>
+            <div className={styles.s6}>
+                <img src='s6.png' alt='Neer'/>
+                <p>Dignity Export Import House</p>
+            </div>
+          </div>
+      </div>
     </div>
   )
 }

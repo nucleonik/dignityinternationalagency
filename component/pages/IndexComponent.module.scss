@@ -135,7 +135,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 6vw;
+    margin-top: 50px;
 }
 .chairmanl img{
     width: 50vw;
@@ -146,7 +146,7 @@
     }
 }
 .chairmanr {
-    margin-top: 5vw;
+    margin-top: 50px;
 }
 .chairmanmessage {
     display: flex;
@@ -161,7 +161,7 @@
     text-align: justify;
     padding-left: 8vw;
     padding-right: 8vw;
-    padding-top: 4vw;
+    padding-top: 15px;
 }
 .chairmanmessage img{
     width: 100vw;
@@ -175,7 +175,7 @@
     .chairman {
         display: flex;
         flex-direction: row;
-        margin-top: 3vw;
+        margin-top: 50px;
         padding-left: 8vw;
     }
     .chairmanl {
@@ -183,13 +183,13 @@
     }
     .chairmanr {
         flex: 1;
-        margin-top: 10vw;
+        margin-top: 50px;
     }
     .chairmanmessage p {
         text-align: justify;
         padding-left: 0vw;
-        padding-right: 2vw;
-        padding-top: 2vw;
+        padding-right: 4vw;
+        padding-top: 10px;
     }
     .chairmanmessage {
         display: flex;
@@ -198,5 +198,164 @@
     }
     .chairmanmessage h1{
         text-align: left;
+    }
+}
+.service {
+    background-color: #f9f9f9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.servicetop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 20px;
+}
+.servicetop h1 {
+    font-size: 30px;
+    font-weight: 700;
+}
+.servicetop p {
+    padding-top: 10px;
+    color: #929292;
+    width: 50vw;
+    text-align: center;
+    font-size: 20px;
+  }
+.servicedown {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+.s1 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+
+  }
+  .s2 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+  }
+  .s3 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+  }
+  .s4 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+  }
+  .s5 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+  }
+  .s6 {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    align-items: center;
+    margin: 4rem;
+  }
+  .s1 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.s2 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.s3 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.s4 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.s5 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.s6 p{
+    text-align: center;
+    width: 230px;
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+}
+@media (min-width: 1430px){
+    .s1 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .s2 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .s3 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .s4 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .s5 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .s6 p{
+        text-align: center;
+        width: 19vw;
+        margin-top: 15px;
+        font-weight: 700;
+        font-size: 20px;
     }
 }
