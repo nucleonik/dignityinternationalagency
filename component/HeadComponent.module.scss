@@ -1,0 +1,78 @@
+.nav {
+    display: flex;
+    padding-left: 30px;
+    padding-right: 30px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+    
+}
+.navl img {
+    width: 50px;
+    align-items: center;
+}
+.navl {
+    display: flex;
+    
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.h3dig {
+    padding-left: 13px;
+    padding-top: 5px;
+    align-items: center;
+}
+.h3dig h3{
+    color: red;
+    line-height: 15px;
+    font-weight: 680;
+}
+.h3dig h4 {
+    line-height: auto;
+}
+.navr {
+    display: flex;
+    align-items: center;
+}
+.navr img{
+    width: 35px;
+    cursor: pointer;
+}
+.navr h4 {
+    padding-right: 20px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 600;
+}
+.navr h4:hover {
+    color: #BA3232;
+}
+@media (max-width: 850px) {
+    .navr h4 {
+        font-size: 0px;
+    }
+    .h3dig h3{
+        font-size: 0px;
+    }
+    .h3dig h4{
+        font-size: 0px;
+    }
+}
+@media (min-width: 750px) {
+    .nav {
+        padding-left: 50px;
+    }
+}   
+@media (min-width: 850px) {
+    .navr img {
+        width: 0px;
+    }
+    .heroo h1{
+        color: #BA3232;
+    }
+}
+.navl img {
+    cursor: pointer;
+}
+.h3dig {
+    cursor: pointer;
+}
