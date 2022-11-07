@@ -9,7 +9,7 @@
   font-size: 24px;
   font-weight: 700;
   color: #676767;
-  text-align: center;
+  text-align: left;
 }
 
 .footertop {
@@ -70,7 +70,6 @@
   }
   .footertop {
     display: flex;
-    align-items: center;
     justify-content: center;
     padding-left: 120px;
     padding-right: 120px;
