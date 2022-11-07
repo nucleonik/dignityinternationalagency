@@ -1,4 +1,4 @@
-import { Link } from '@chakra-ui/react'
+import Link from 'next/link'
 import Head from 'next/head'
 import React from 'react'
 import DrawerComponent from './DrawerComponent'
@@ -24,10 +24,10 @@ const HeadComponent = () => {
             </Link>
       
             <div className={styles.navr}>
-                <Link href='/'>
+            <Link href='/'>
                     <h4>HOME</h4>
                 </Link>
-                <Link href='about'>
+                <Link href='aboutus'>
                     <h4>ABOUT US</h4>
                 </Link>
                 <Link href='whyhireus'>
