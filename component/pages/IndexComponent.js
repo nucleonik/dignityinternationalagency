@@ -5,7 +5,7 @@ import styles from '../pages/IndexComponent.module.css'
 const IndexComponent = () => {
   return (
     <div>
-        <div className={styles.hero} style={{ backgroundImage: `url("bgimg1.png")`, backgroundPosition: 'center', height: '40vw',backgroundSize: '100%',backgroundRepeat: 'no-repeat' }}>
+        <div className={styles.hero} style={{ backgroundImage: `url("bgimg1.png")`, backgroundPosition: 'center', height: '40vw',backgroundSize: '100vw',backgroundRepeat: 'no-repeat' }}>
             <div>
                   <h1>DIGNITY INTERNATIONAL AGENCY</h1>
             </div>
@@ -64,6 +64,17 @@ const IndexComponent = () => {
                 <img src='s6.png' alt='Neer'/>
                 <p>Dignity Export Import House</p>
             </div>
+          </div>
+          <div className={styles.mdmessage}>
+            <div className={styles.mdr}>
+                <img src='shihab.png' alt='mdmessage'/>
+            </div>
+            <div className={styles.mdl}>
+                <h1>Message from Managing Director</h1>
+                <img src='rec.svg' alt='rectangle'/>
+                <p>We are committed to instilling the values of integrity, ethics, values, and honesty in our shareholders and stockholders. We aim to provide a human resource service that benefits both employers and employees, as well as to be a dependable, honest, and committed corporate recruiter. We envision ourselves as a premier corporate manpower recruiter agency in Bangladesh. We build a bridge for the rest of the world, allowing for a borderless search and placement business model in which candidates can be sourced and placed where the perfect employee and employers can be discovered anywhere in the world.</p>
+            </div>
+            
           </div>
       </div>
     </div>
