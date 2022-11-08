@@ -1,4 +1,4 @@
-import { Link } from '@chakra-ui/react'
+import Link from 'next/link'
 import React from 'react'
 import styles from '../pages/IndexComponent.module.css'
 
@@ -150,7 +150,7 @@ const IndexComponent = () => {
                     <h1>MART FASHION</h1>
                     <img src='rec.svg' alt='rec'/>
                     <p>All over printing, readymade garments, export, import and order supply solution house</p>
-                    <Link href='product'>
+                    <Link href='products'>
                         <h4>See All Products</h4>
                     </Link>
                 </div>

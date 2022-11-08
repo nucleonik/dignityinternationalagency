@@ -1,0 +1,44 @@
+.hh1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    color: white;
+    padding-top: 13vw;
+}
+.hh1 h1{
+    background-color: #00000099;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 3vw;
+    font-weight: 600;
+}
+.hb {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 4vw;
+    padding-bottom: 4vw;
+}
+.hb h1{
+    font-size: 1.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    background-color: #f0f0f0f0;
+}
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+.products img {
+    width: 220px;
+    margin: 2rem;
+}
